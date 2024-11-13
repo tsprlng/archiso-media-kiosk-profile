@@ -1,0 +1,8 @@
+[Unit]
+Name=/var/lib/kodi
+Before=kodi-wayland.service
+
+[Mount]
+What=UUID=1ad2d639-fe2b-42d2-b533-b515e11f3734
+# /dev/sda3
+Where=/var/lib/kodi
