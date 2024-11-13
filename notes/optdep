@@ -1,0 +1,64 @@
+Optional dependencies for avahi
+    gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+    libevent: libevent bindings [installed]
+    nss-mdns: NSS support for mDNS
+    python-dbus: avahi-bookmarks, avahi-discover
+    python-gobject: avahi-bookmarks, avahi-discover
+    python-twisted: avahi-bookmarks
+    qt5-base: qt5 bindings
+(455/476) installing shairplay                                         [#######################################] 100%
+(456/476) installing tevent                                            [#######################################] 100%
+Optional dependencies for tevent
+    python: for python bindings [installed]
+(457/476) installing tdb                                               [#######################################] 100%
+Optional dependencies for tdb
+    python: for python bindings [installed]
+(458/476) installing ldb                                               [#######################################] 100%
+Optional dependencies for ldb
+    python: for python bindings [installed]
+(459/476) installing libcups                                           [#######################################] 100%
+(460/476) installing smbclient                                         [#######################################] 100%
+Optional dependencies for smbclient
+    python-dnspython: samba_dnsupdate and samba_upgradedns in AD setup
+    python-markdown: for samba-tool domain schemeupgrade
+    glusterfs: for vfs_glusterfs support
+(461/476) installing sndio                                             [#######################################] 100%
+(462/476) installing spdlog                                            [#######################################] 100%
+(463/476) installing tinyxml                                           [#######################################] 100%
+(464/476) installing taglib                                            [#######################################] 100%
+(465/476) installing xkeyboard-config                                  [#######################################] 100%
+(466/476) installing libxkbcommon                                      [#######################################] 100%
+Optional dependencies for libxkbcommon
+    libxkbcommon-x11: xkbcli interactive-x11
+    wayland: xkbcli interactive-wayland [installed]
+(467/476) installing pugixml                                           [#######################################] 100%
+(468/476) installing waylandpp                                         [#######################################] 100%
+(469/476) installing mtdev                                             [#######################################] 100%
+(470/476) installing libevdev                                          [#######################################] 100%
+(471/476) installing libwacom                                          [#######################################] 100%
+Optional dependencies for libwacom
+    python-libevdev: for libwacom-show-stylus
+    python-pyudev: for libwacom-show-stylus
+(472/476) installing libinput                                          [#######################################] 100%
+Optional dependencies for libinput
+    gtk4: libinput debug-gui
+    python-pyudev: libinput measure
+    python-libevdev: libinput measure
+    python-yaml: used by various tools [installed]
+(473/476) installing tinyxml2                                          [#######################################] 100%
+(474/476) installing libdisplay-info                                   [#######################################] 100%
+(475/476) installing kodi                                              [#######################################] 100%
+Optional dependencies for kodi
+    bluez: Blutooth support
+    python-pybluez: Bluetooth support
+    pulseaudio: PulseAudio support
+    pipewire: PipeWire support
+    upower: Display battery level
+(476/476) installing kodi-standalone-service                           [#######################################] 100%
+--> Optionally create /etc/conf.d/kodi-standalone if you need to pass
+--> any environment variables to the service.
+Optional dependencies for kodi-standalone-service
+    cage: for kodi-wayland.service
+    wayland: for kodi-wayland.service [installed]
+    xorg-server: for kodi-x11.service
+    xorg-xinit: for kodi-x11.service

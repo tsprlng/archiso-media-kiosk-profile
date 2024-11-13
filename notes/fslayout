@@ -1,0 +1,12 @@
+Disk /dev/sda: 14.41 GiB, 15472047104 bytes, 30218842 sectors
+Disk model: DataTraveler 3.0
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x61808370
+
+Device     Boot   Start      End  Sectors  Size Id Type
+/dev/sda1  *         64  2260991  2260928  1.1G  0 Empty
+/dev/sda2       2260992  2619391   358400  175M ef EFI (FAT-12/16/32)
+/dev/sda3       6000000 30218841 24218842 11.5G 83 Linux
